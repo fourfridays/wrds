@@ -1,9 +1,10 @@
 from django.conf import settings
-from django.urls import path
+from django.urls import include, path
 from django.contrib import admin
 
 urlpatterns = [
     path('django-admin/', admin.site.urls),
+    path('', include('pet.urls')),
 ]
 
 if settings.DEBUG:

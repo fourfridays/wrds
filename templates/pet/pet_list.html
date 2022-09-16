@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block body_class %}pets{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <h1>Pets</h1>
+            <p>Given a context of having exactly one array of key/value pairs including a pet's name and owner’s name, we are outtputting an HTML page presenting the values separated by a colon as an ordered list.</p>
+        </div>
+        <div class="row">
+            <ol>
+                {% for pet in pet_list %}
+                    <li>{{ pet.name }}: {{ pet.owner }}</li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+{% endblock %}
