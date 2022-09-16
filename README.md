@@ -1,3 +1,5 @@
+Solution to Question 1 can be found in wrds/polymorphism.py
+
 # Rationals
 
 ## Language Rationale for Abstract Classes
