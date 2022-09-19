@@ -1,6 +1,6 @@
 Solution to Question 1 can be found in wrds/polymorphism.py
 
-# Rationals
+# Rationales
 
 ## Language Rationale for Abstract Classes
 I have chosen Python for the coding tasks for the following reasons:
@@ -23,7 +23,7 @@ For the ORM part of the tasks I have selected Django for the following reasons:
         - Each attribute of the model represents a database field.
         - With all of this, Django gives you an automatically-generated database-access API; see Making queries.
 
-## Rational for Template engine
+## Rationale for Template engine
 I picked Django's built-in templating language for the following reasons:
 1. Separationg of program logic from presentation
 2. Template inheritance where you can build elements in blocks that child templates can override of use as is
